@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>3_Product Page2</title>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/shop-homepage.css" rel="stylesheet">
+<link href="carousel.css" rel="stylesheet" type="text/css">
+<link href="Product Page css.css" rel="stylesheet" type="text/css">
+<link href="css/Landing Page css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body style="padding-top: 70px">
+<!--	Global Navigation bar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
+  <!--<img class= "image" src="images/GI LOGO.PNG" alt= "logo" > <a class="navbar-brand" href="#">Godrej Interio </a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <a class="navbar-brand" href="#">Godrej Interio </a>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-heart fa-2x" aria-hidden="true"></i> </a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"> <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-user fa-2x" aria-hidden="true"></i></a> </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <!--	      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a> </li>
+    <!--	      <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Interiors </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dealer Locator </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact Us </a> </li>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Something else here</a> </div>
+    </li>
+  </div>
+</nav>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" id="tags" type="search" placeholder="Search" aria-label="Search"  >
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Search</button>
+</form>
+
+<!--      FilterS--> 
+<!--	  SORT BY FILTER-->
+<div class="dropdown show"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> SORT BY: Recommended</a> </div>
+<div class="dropdown-menu"> <a class="dropdown-item" href="#">Recommended</a> <a class="dropdown-item" href="#">Popularity </a> <a class="dropdown-item" href="#">Faster Delivery </a> <a class="dropdown-item" href="#">Availabilty </a>
+  <div class="dropdown-divider"></div>
+</div>
+
+<!--		  PRICE FILTER-->
+
+<div class="dropdown show"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> PRICE RANGE: Low- High</a> </div>
+<div class="dropdown-menu"> <a class="dropdown-item" href="#">Low to High </a> <a class="dropdown-item" href="#">High to Low </a>
+  <div class="dropdown-divider"></div>
+</div>
+
+<!--		 COLOUR-->
+
+<div class="dropdown show"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> COLOUR: Blue </a> </div>
+<div class="dropdown-menu"> <a class="dropdown-item" href="#">White </a> <a class="dropdown-item" href="#">Beige </a> <a class="dropdown-item" href="#">Blue Grey </a> <a class="dropdown-item" href="#">Dark Grey </a>
+  <div class="dropdown-divider"></div>
+</div>
+
+<!--		  MATERIAL-->
+
+<div class="dropdown show"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MATERIAL: Velvet </a> </div>
+<div class="dropdown-menu"> <a class="dropdown-item" href="#">Velvet </a> <a class="dropdown-item" href="#">Acrylic </a> <a class="dropdown-item" href="#">Olefin </a>
+  <div class="dropdown-divider"></div>
+</div>
+
+<!--	  Breadcrumb navigation -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+    <li class="breadcrumb-item active" aria-current="page">Products</li>
+    <li class="breadcrumb-item active" aria-current="page">Furniture</li>
+    <li class="breadcrumb-item active" aria-current="page">Sofas</li>
+    <li class="breadcrumb-item"><a href="#">Sofa-Cum-Bed</a></li>
+  </ol>
+</nav>
+<!--			  
+<!--	  Product list-->
+<div class="row">
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100"> <a href="Godrej Interio- Main product.html"><img class="card-img-top" src="images/Product Page 2 Pictures/Product page 2(1).JPG" alt=""></a>
+      <div class= "overlay">
+        <div class="text"> BUY NOW </div>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title"> <a href="Godrej Interio- Main product.html">COZY-SOFA-CUM-BED</a> </h4>
+        <h5>Rs. 59,999</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      </div>
+      <div class="card-footer"> <i class="fas fa-heart fa-lg" aria-hidden="true"></i> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100"> <a href="#"><img class="card-img-top" src="images/Product Page 2 Pictures/Product page 2(2).JPG"alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title"> <a href="#">SOFA-CUM-BED-DARK</a> </h4>
+        <h5>Rs. 29,999</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      </div>
+      <div class="card-footer"> <i class="fas fa-heart fa-lg" aria-hidden="true"></i> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100"> <a href="#"><img class="card-img-top" src="images/Product Page 2 Pictures/Product page 2(3).JPG"alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title"> <a href="#">L-SHAPED</a> </h4>
+        <h5>Rs. 39,999</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      </div>
+      <div class="card-footer"> <i class="fas fa-heart fa-lg" aria-hidden="true"></i> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> </div>
+    </div>
+  </div>
+  <div class="col-lg-3col-md-6 mb-4">
+    <div class="card h-100"> <a href="#"><img class="card-img-top" src="images/Product Page 2 Pictures/Product page 2(4).JPG" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title"> <a href="#">VELVET CONNECTION</a> </h4>
+        <h5>Rs. 24,999</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      </div>
+      <div class="card-footer"><i class="fas fa-heart fa-lg" aria-hidden="true"></i> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> </div>
+    </div>
+  </div>
+</div>
+<footer class="py-5 bg-dark"> 
+  <!--	  <div class="footerheadings"-->
+  
+  <div class="container">
+    <div class "row">
+      <div class= "col"> ABOUT US </div>
+      <div class= "col"> NEED HELP? </div>
+      <div class= "col"> DISCOVER </div>
+    </div>
+    <p class="m-0 text-center text-white"> Copyright &copy; Godrej Interio 2019</p>
+  </div>
+  <!-- /.container --> 
+</footer>
+<script src="../js/jquery-3.2.1.min.js"></script> 
+<script src="../js/popper.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

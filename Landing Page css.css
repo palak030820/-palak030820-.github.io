@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.d-block {
+/*	height: 550px;*/
+	height: auto;
+	width: 1350px;
+	
+}
+
+
+
+.top {
+	padding-left: 100px;
+	color: gray;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.HEADING {
+/*	margin-left: 50px;*/
+/*	align-content:center ;*/
+	padding-left: 50 px;
+	color: gray;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.col-lg-4 {
+	margin-left: 150px;
+	
+	
+}
+
+.card-title {
+	
+}
+
+.SHOPNOWBUTTON {
+	color: white
+		text: bol
+}
+
+.fa-heart {
+	color: red;
+	height: 20px;
+}
+
+.fa {
+	color: orange; 
+}
+
+.faz {
+	color: grey;
+}
+
+
+.nav-item {
+	font-family: 'Josefin Sans', sans-serif,bold;
+
+}
+.image {
+	height: 40px;
+	
+	
+}
+
+
+
+.overlay {
+position:absolute;
+top:0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:cadetblue;
+
+
+}
+
+
+.card-img-top:hover .overlay {
+  opacity: .85;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}	
+
+.navbar-toggler {
+	align-content: flex-start;
+}
+
+
+.col {
+	color: aliceblue;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+}

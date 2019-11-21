@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5_Shopping Cart</title>
+<link href="css/Shopping cart css.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="css/Landing Page css.css" rel="stylesheet" type="text/css">
+</head>
+
+<!--Navigation -->
+
+<body style="padding-top: 70px">
+<!--	Global Navigation bar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
+  <!--<img class= "image" src="images/GI LOGO.PNG" alt= "logo" > <a class="navbar-brand" href="#">Godrej Interio </a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <a class="navbar-brand" href="#">Godrej Interio </a>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-heart fa-2x" aria-hidden="true"></i> </a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"> <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-user fa-2x" aria-hidden="true"></i></a> </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <!--	      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a> </li>
+    <!--	      <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Interiors </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dealer Locator </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact Us </a> </li>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Something else here</a> </div>
+    </li>
+  </div>
+</nav>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" id="tags" type="search" placeholder="Search" aria-label="Search"  >
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Search</button>
+</form>
+<h1>Shopping Cart</h1>
+<a href="#" class="continue">Continue Shopping</a>
+</div>
+<div class="cart">
+<ul class="cartWrap">
+<li class="items odd">
+  <div class="infoWrap">
+    <div class="cartSection"> <img src="images/Product Page 2 Pictures/Product page 2(1).JPG" alt="" class="itemImg" />
+      <p class="itemNumber">SKU- J0SISICKCSKJCB</p>
+      <h3>COZY SOFA CUM BED</h3>
+      <p>
+        <input type="text"  class="qty" placeholder="1"/>
+        x INR 25,499</p>
+      <p class="stockStatus"> In Stock</p>
+    </div>
+    <div class="promoCode">
+      <label for="promo">Have A Promo Code?</label>
+      <input type="text" name="promo" placholder="Enter Code" />
+      <a href="#" class="btn"></a></div>
+    <div class="subtotal cf">
+      <ul>
+        <li class="totalRow"><span class="label">Subtotal</span><span class="value">INR 25,499.00</span></li>
+        <li class="totalRow"><span class="label">Shipping</span><span class="value">INR 00</span></li>
+        <li class="totalRow"><span class="label">Discount</span><span class="value">INR 1,499</span></li>
+        <li class="totalRow final"><span class="label">Total</span><span class="value">INR 24,000</span></li>
+        <button type="button" class="btn btn-lg" onClick="window.location.href='Godrej Interio- Login Page.html';" >Proceed to Checkout</button>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+<script src= 'js/shoppong_cart.js'</script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src= "js/main_product.js"> </script>

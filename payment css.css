@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.submit-button {
+  margin-top: 10px;
+}
+
+
+.img-fluid-2 {
+	width :100%;
+	height: auto;
+}
+
+
+.payment {
+	padding-left: 20px;
+}

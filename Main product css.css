@@ -1,0 +1,62 @@
+
+/* CSS Document */
+
+
+.my-4 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: gray;
+}
+
+
+.img-fluid-2 {
+	width: 100%;
+    height: auto;
+}
+
+.accordian {
+	color: gray;
+	font-family; 'Josefin Sans', sans-serif;
+}
+
+.column2 {
+	width: 100%;
+	height: auto;
+}
+
+.column3 {
+	width: 100%;
+	height: auto;
+}
+
+.column4 {
+	width: 100%;
+	height: auto;
+}
+
+
+.col-md-4 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: gray;
+}
+
+.img-fluid {
+	height: 200px;
+	opacity: 50%;
+	padding-right: 20px;
+}
+
+.img-fluid-2 {
+	height: 500;
+	width: 700;
+}
+
+.nav-link {
+	color: darkgray;
+	
+}
+
+.nav-link-act {
+	color:dodgerblue;
+	text-decoration: underline;
+	font-size: 25px;
+}

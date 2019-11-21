@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>7_Login</title>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/shop-homepage.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/Landing Page css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="css/Login form css.css" rel="stylesheet" type="text/css">
+<link href="css/Order Summary css.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+
+<body style="padding-top: 70px">
+<!--	Global Navigation bar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
+  <!--<img class= "image" src="images/GI LOGO.PNG" alt= "logo" > <a class="navbar-brand" href="#">Godrej Interio </a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <a class="navbar-brand" href="#">Godrej Interio </a>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-heart fa-2x" aria-hidden="true"></i> </a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"> <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a> </li>
+  <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-user fa-2x" aria-hidden="true"></i></a> </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <!--	      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a> </li>
+    <!--	      <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>-->
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Interiors </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dealer Locator </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us </a> </li>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact Us </a> </li>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Something else here</a> </div>
+    </li>
+  </div>
+</nav>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" id="tags" type="search" placeholder="Search" aria-label="Search"  >
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Search</button>
+</form>
+
+<!--	Wizard  -->
+
+<div class="container">
+  <div class="stepwizard">
+    <div class="stepwizard-row setup-panel">
+      <div class="stepwizard-step"> <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+        <p>Register</p>
+      </div>
+      <div class="stepwizard-step"> <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+        <p>Place Order</p>
+      </div>
+      <div class="stepwizard-step"> <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+        <p>Order Complete</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--	  FORM-->
+<div class="form">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">Login form</h5>
+          <button class="back-button" type="submit" onClick="window.location.href='Godrej Interio- Login Page.html';">BACK </button>
+          <form class="form-signin">
+            <div class="form-label-group">
+              <input type="name" id="inputname" class="form-control" placeholder= "Name"required>
+            </div>
+            <div class="form-label-group">
+              <input type="address" id="inputaddress" class="form-control" placeholder="Address " required>
+            </div>
+            <div class="form-label-group">
+              <input type="city" id="inputcity" class="form-control" placeholder="City " required>
+            </div>
+            <div class="form-label-group">
+              <input type="province" id="inputprovince" class="form-control" placeholder="Province " required>
+            </div>
+            <div class="form-label-group">
+              <input type="country" id="inputcountry" class="form-control" placeholder="Country " required>
+            </div>
+            <div class="form-label-group">
+              <input type="password" id="inputaddresss" class="form-control" placeholder="Postal Address" required>
+            </div>
+            <div class="form-label-group">
+              <input type="phone number" id="inputphonenumber" class="form-control" placeholder="Phone Number " required>
+            </div>
+            <div class="form-label-group">
+              <input type="email" id="inputemail" class="form-control" placeholder="Email Address " required>
+            </div>
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1" >
+              <h6> I agree to the terms and conditions</h6>
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" onClick="window.location.href='Godrej Interio- Order Summary.html';">Save and Proceed </button>
+            <hr class="my-4">
+            <button class="get in touch" type="contact">
+            <h6>Get in touch?</h6>
+            </button>
+            <h6> For any queries contact us </h6>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="py-5 bg-dark"> 
+  <!--	  <div class="footerheadings"-->
+  
+  <div class="container">
+    <div class "row">
+      <div class= "col"> ABOUT US </div>
+      <div class= "col"> NEED HELP? </div>
+      <div class= "col"> DISCOVER </div>
+    </div>
+    <p class="m-0 text-center text-white"> Copyright &copy; Godrej Interio 2019</p>
+  </div>
+  <!-- /.container --> 
+</footer>
+<script src="../js/jquery-3.2.1.min.js"></script> 
+<script src="../js/popper.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> 
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src= "js/form.js"> </script>
+</body>
+</html>
